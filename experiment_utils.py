@@ -1,9 +1,9 @@
 import os, sys
 import pandas as pd
 
-from colab.dataset import *
-from colab.pyem_utils import *
-from colab.experiment import *
+from al_colab.dataset import *
+from al_colab.pyem_utils import *
+from al_colab.experiment import *
 
 def write_results(result, dataset, path, filename):
     out_dir_idx = os.path.join('out', path)
